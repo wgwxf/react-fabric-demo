@@ -1,0 +1,14 @@
+{
+  "extends": "eslint-config-umi",
+  "globals": {
+    "document": true,
+    "localStorage": true,
+    "window": true,
+    "Globals": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "legacyDecorators": true
+    }
+  }
+}

@@ -1,0 +1,115 @@
+@import "~antd/lib/style/themes/default.less";
+@import "assets/less/reset";
+@import "assets/less/base.less";
+
+html, body, :global(#root) {
+  height: 100%;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fade-enter {
+  opacity: 0.01;
+  transform: scale(0.9) translateY(50%);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: scale(1) translateY(0%);
+  transition: all 300ms ease-out;
+}
+.fade-exit {
+  opacity: 1;
+  transform: scale(1) translateY(0%);
+}
+.fade-exit-active {
+  opacity: 0.01;
+  transform: scale(0.9) translateY(50%);
+  transition: all 300ms ease-out;
+}
+
+.ant-modal-header {
+  background-color: transparent;
+  border-bottom: none;
+}
+.ant-modal-title {
+  .fs14;
+  color: #777;
+}
+.ant-modal-content {
+  background-color: #F0F2F5;
+}
+.ant-modal-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 24px;
+  .bgcw;
+  border-radius: 5px;
+}
+.ant-modal-footer {
+  border-top: none;
+  button {
+    padding: 0 18px;
+    .fs14;
+    //width: 80px;
+    & + button {
+      .ml20;
+    }
+  }
+}
+
+.ant-layout {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.ant-table-wrapper {
+  background-color: #fff;
+}
+
+.ant-confirm .ant-modal-body {
+  margin: 0 auto;
+}
+
+.ui-sortable {
+  display: block;
+  position: relative;
+  overflow: visible;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.ui-sortable:before,
+.ui-sortable:after{
+  content: " ";
+  display: table;
+}
+
+.ui-sortable:after{
+  clear: both;
+}
+
+.ui-sortable .ui-sortable-item {
+  //cursor: move;
+}
+
+.ui-sortable .ui-sortable-item.ui-sortable-dragging {
+  position: absolute;
+  z-index: 1688;
+}
+
+.ui-sortable .ui-sortable-placeholder {
+  display: none;
+}
+
+.ui-sortable .ui-sortable-placeholder.visible {
+  display: block;
+  z-index: -1;
+}
+.anticon-iDrag {
+  cursor: move;
+}

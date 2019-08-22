@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "umi dev",
+    "build": "set UMI_ENV=prod&&umi build",
+    "test": "umi test",
+    "lint": "eslint --ext .js src mock tests",
+    "precommit": "lint-staged"
+  },
+  "dependencies": {
+    "lodash-decorators": "^6.0.1",
+    "store": "^2.0.12",
+    "react-color": "^2.17.3",
+    "fabric": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-umi": "^1.0.1",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "lint-staged": "^9.2.1",
+    "umi": "^2.8.16",
+    "umi-plugin-react": "^1.9.14"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
