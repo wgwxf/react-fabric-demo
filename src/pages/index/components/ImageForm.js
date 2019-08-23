@@ -324,7 +324,7 @@ export default class ImageForm extends PureComponent {
           </Col>
         </Row>
         <Row>
-          <Col span={24} style={{textAlign: 'right'}}>
+          <Col span={24} style={{textAlign: 'right', paddingRight: '33px'}}>
             <Button type="primary" icon="download" onClick={this.props.download}>生成图片</Button>
           </Col>
         </Row>
