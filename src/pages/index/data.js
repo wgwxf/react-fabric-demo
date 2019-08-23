@@ -3,7 +3,7 @@
  */
 export default [
   {
-    thumbcache: require('../../../assets/img/course_template/thumb1.png'),// 缩略图
+    thumbcache: require('../../assets/img/course_template/thumb1.png'),// 缩略图
     backgroundImage: '',
     backgroundColor: "#000",
     defaultOptions: {// 元素默认位置及尺寸
@@ -64,7 +64,7 @@ export default [
       },
     },
     defaultValues: {// 元素默认值
-      teacherImage: require('../../../assets/img/course_template/teacher1.png'),
+      teacherImage: require('../../assets/img/course_template/teacher1.png'),
       courseName: '课程标题',
       subCourseName: '课程副标题',
       teacherName: '姓名',
@@ -72,8 +72,8 @@ export default [
     }
   },
   {
-    thumbcache: require('../../../assets/img/course_template/thumb2.png'),// 缩略图
-    backgroundImage: require('../../../assets/img/course_template/bg2.png'),
+    thumbcache: require('../../assets/img/course_template/thumb2.png'),// 缩略图
+    backgroundImage: require('../../assets/img/course_template/bg2.png'),
     backgroundColor: "#1f50a5",
     defaultOptions: {// 元素默认位置及尺寸
       courseName: {
@@ -126,7 +126,7 @@ export default [
       },
     },
     defaultValues: {// 元素默认值
-      teacherImage: require('../../../assets/img/course_template/teacher2.png'),
+      teacherImage: require('../../assets/img/course_template/teacher2.png'),
       courseName: '课程标题',
       subCourseName: '课程副标题',
       teacherName: '姓名',
@@ -134,8 +134,8 @@ export default [
     }
   },
   {
-    thumbcache: require('../../../assets/img/course_template/thumb3.png'),// 缩略图
-    backgroundImage: require('../../../assets/img/course_template/bg3.png'),
+    thumbcache: require('../../assets/img/course_template/thumb3.png'),// 缩略图
+    backgroundImage: require('../../assets/img/course_template/bg3.png'),
     backgroundColor: "#000",
     defaultOptions: {// 元素默认位置及尺寸
       courseName: {
@@ -196,8 +196,8 @@ export default [
     }
   },
   {
-    thumbcache: require('../../../assets/img/course_template/thumb4.png'),// 缩略图
-    backgroundImage: require('../../../assets/img/course_template/bg4.png'),
+    thumbcache: require('../../assets/img/course_template/thumb4.png'),// 缩略图
+    backgroundImage: require('../../assets/img/course_template/bg4.png'),
     backgroundColor: "#000",
     defaultOptions: {// 元素默认位置及尺寸
       courseName: {
@@ -257,8 +257,8 @@ export default [
     }
   },
   {
-    thumbcache: require('../../../assets/img/course_template/thumb5.png'),// 缩略图
-    backgroundImage: require('../../../assets/img/course_template/bg5.png'),
+    thumbcache: require('../../assets/img/course_template/thumb5.png'),// 缩略图
+    backgroundImage: require('../../assets/img/course_template/bg5.png'),
     backgroundColor: "#000",
     defaultOptions: {// 元素默认位置及尺寸
       courseName: {
