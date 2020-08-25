@@ -4,7 +4,7 @@
 export default [
   {
     thumbcache: require('../../assets/img/course_template/thumb1.png'),// 缩略图
-    backgroundImage: '',
+    backgroundImage: require('../../assets/img/course_template/bg1.png'),
     backgroundColor: "#000",
     defaultOptions: {// 元素默认位置及尺寸
       courseName: {
