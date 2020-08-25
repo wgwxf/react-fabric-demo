@@ -54,7 +54,7 @@ export default class ImageForm extends PureComponent {
   };
 
   beforeAvatarUpload = (file) => {
-    if (!file.type === 'image/png') {
+    if (!(file.type === 'image/png')) {
       message.error('请选择图片!');
       return false;
     }
@@ -85,7 +85,7 @@ export default class ImageForm extends PureComponent {
   };
 
   beforeBackgroundUpload = (file) => {
-    if (!file.type === 'image/jpeg') {
+    if (!(file.type === 'image/jpeg')) {
       message.error('请选择图片!');
       return false;
     }
