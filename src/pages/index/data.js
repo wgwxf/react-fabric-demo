@@ -1,7 +1,7 @@
 export default [
   {
     thumbcache: require('../../assets/img/course_template/thumb1.png'),// thumbnail(缩略图)
-    backgroundImage: require('../../assets/img/course_template/bg1.png'),
+    backgroundImage: '',
     backgroundColor: "#000",
     defaultOptions: {// element default location and size（元素默认位置及尺寸）
       courseName: {
@@ -31,7 +31,7 @@ export default [
         width: 160,
       }
     },
-    defaultStyles: {// element default style（元素默认样式）
+    defaultStyles: {// 元素默认样式
       courseName: {
         fill: '#fff',
         fontSize: 40,

@@ -274,6 +274,7 @@ export default class ImageForm extends PureComponent {
         <Row>
           <Col span={24}>
             <div className={styles.avatarUploader}>
+              <Upload {...avatarProps}>
               {imageUrl ?
                 <div className="ant-upload ant-upload-select ant-upload-select-picture-card"><img src={imageUrl} alt="" /></div>
                 :
@@ -284,14 +285,10 @@ export default class ImageForm extends PureComponent {
                   </span>
                 </div>
               }
+              </Upload>
             </div>
             <div className={styles.avatarTips}>
               <Row>
-                <Upload {...avatarProps}>
-                  <a>
-                    <Icon type="upload" /> 上传讲师照片
-                  </a>
-                </Upload>
                 <Upload {...backgroundProps} style={{marginLeft: '35px'}}>
                   <a>
                     <Icon type="upload" /> 上传背景图片

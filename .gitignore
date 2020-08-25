@@ -20,3 +20,5 @@
 .iml
 
 /gh-pages
+/.idea/
+/react-fabric-demo.iml
