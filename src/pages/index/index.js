@@ -1,6 +1,3 @@
-/**
- * Created by wgwxf on 2018/6/11.
- */
 import React, { Component } from 'react';
 import styles from './image.less';
 import ImageForm from './components/ImageForm';

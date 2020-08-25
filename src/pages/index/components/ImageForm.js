@@ -1,6 +1,3 @@
-/**
- * Created by wgwxf on 2018/6/11.
- */
 import React, { PureComponent } from 'react';
 import { Form, Input, Button, Row, Col, Upload, message, Icon, Popover, Select, Slider } from 'antd';
 import { CirclePicker } from 'react-color';
@@ -11,8 +8,8 @@ const { Option } = Select;
 function getAvatarBase64(img, callback) {
   const reader = new FileReader();
   reader.addEventListener('load', () => {
-    let image    = new Image();
-    image.src    = reader.result;
+    let image = new Image();
+    image.src = reader.result;
     image.onload = function () {
       const canvas = document.createElement("canvas");
       const scale  = image.width / image.height;
@@ -29,8 +26,8 @@ function getAvatarBase64(img, callback) {
 function getBackgroundBase64(img, callback) {
   const reader = new FileReader();
   reader.addEventListener('load', () => {
-    let image    = new Image();
-    image.src    = reader.result;
+    let image = new Image();
+    image.src = reader.result;
     image.onload = function () {
       const canvas = document.createElement("canvas");
       canvas.width  = image.width < 463 ? image.width : 463;

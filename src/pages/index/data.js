@@ -1,12 +1,9 @@
-/**
- * Created by wgwxf on 2018/6/11.
- */
 export default [
   {
-    thumbcache: require('../../assets/img/course_template/thumb1.png'),// 缩略图
+    thumbcache: require('../../assets/img/course_template/thumb1.png'),// thumbnail(缩略图)
     backgroundImage: require('../../assets/img/course_template/bg1.png'),
     backgroundColor: "#000",
-    defaultOptions: {// 元素默认位置及尺寸
+    defaultOptions: {// element default location and size（元素默认位置及尺寸）
       courseName: {
         top: 50,
         left: 60,
@@ -34,7 +31,7 @@ export default [
         width: 160,
       }
     },
-    defaultStyles: {// 元素默认样式
+    defaultStyles: {// element default style（元素默认样式）
       courseName: {
         fill: '#fff',
         fontSize: 40,
@@ -63,7 +60,7 @@ export default [
         _fontSizeMult: 1.5,
       },
     },
-    defaultValues: {// 元素默认值
+    defaultValues: {// element default （元素默认值）
       teacherImage: require('../../assets/img/course_template/teacher1.png'),
       courseName: '课程标题',
       subCourseName: '课程副标题',
@@ -72,10 +69,10 @@ export default [
     }
   },
   {
-    thumbcache: require('../../assets/img/course_template/thumb2.png'),// 缩略图
+    thumbcache: require('../../assets/img/course_template/thumb2.png'),// thumbnail(缩略图)
     backgroundImage: require('../../assets/img/course_template/bg2.png'),
     backgroundColor: "#1f50a5",
-    defaultOptions: {// 元素默认位置及尺寸
+    defaultOptions: {// element default location and size（元素默认位置及尺寸）
       courseName: {
         top: 40,
         left: 30,
@@ -99,7 +96,7 @@ export default [
         width: 160,
       }
     },
-    defaultStyles: {// 元素默认样式
+    defaultStyles: {// element default style（元素默认样式）
       courseName: {
         fill: '#fff',
         fontSize: 40,
@@ -125,7 +122,7 @@ export default [
         _fontSizeMult: 1.5,
       },
     },
-    defaultValues: {// 元素默认值
+    defaultValues: {// element default （元素默认值）
       teacherImage: require('../../assets/img/course_template/teacher2.png'),
       courseName: '课程标题',
       subCourseName: '课程副标题',
@@ -134,10 +131,10 @@ export default [
     }
   },
   {
-    thumbcache: require('../../assets/img/course_template/thumb3.png'),// 缩略图
+    thumbcache: require('../../assets/img/course_template/thumb3.png'),// thumbnail(缩略图)
     backgroundImage: require('../../assets/img/course_template/bg3.png'),
     backgroundColor: "#000",
-    defaultOptions: {// 元素默认位置及尺寸
+    defaultOptions: {// element default style（元素默认样式）
       courseName: {
         top: 40,
         left: 30,
@@ -161,7 +158,7 @@ export default [
         width: 160,
       }
     },
-    defaultStyles: {// 元素默认样式
+    defaultStyles: {// element default style（元素默认样式）
       courseName: {
         fill: '#fe9200',
         fontSize: 40,
@@ -187,7 +184,7 @@ export default [
         _fontSizeMult: 1.5,
       },
     },
-    defaultValues: {// 元素默认值
+    defaultValues: {// element default （元素默认值）
       teacherImage: '',
       courseName: '课程标题',
       subCourseName: '课程副标题',
@@ -196,10 +193,10 @@ export default [
     }
   },
   {
-    thumbcache: require('../../assets/img/course_template/thumb4.png'),// 缩略图
+    thumbcache: require('../../assets/img/course_template/thumb4.png'),// thumbnail(缩略图)
     backgroundImage: require('../../assets/img/course_template/bg4.png'),
     backgroundColor: "#000",
-    defaultOptions: {// 元素默认位置及尺寸
+    defaultOptions: {// element default style（元素默认样式）
       courseName: {
         top: 100,
         left: 150,
@@ -223,7 +220,7 @@ export default [
         width: 160,
       }
     },
-    defaultStyles: {// 元素默认样式
+    defaultStyles: {// element default style（元素默认样式）
       courseName: {
         fill: '#000',
         fontSize: 40,
@@ -248,7 +245,7 @@ export default [
         _fontSizeMult: 1.5,
       },
     },
-    defaultValues: {// 元素默认值
+    defaultValues: {// element default （元素默认值）
       teacherImage: '',
       courseName: '课程标题',
       subCourseName: '课程副标题',
@@ -257,10 +254,10 @@ export default [
     }
   },
   {
-    thumbcache: require('../../assets/img/course_template/thumb5.png'),// 缩略图
+    thumbcache: require('../../assets/img/course_template/thumb5.png'),// thumbnail(缩略图)
     backgroundImage: require('../../assets/img/course_template/bg5.png'),
     backgroundColor: "#000",
-    defaultOptions: {// 元素默认位置及尺寸
+    defaultOptions: {// element default style（元素默认样式）
       courseName: {
         top: 80,
         left: 60,
@@ -288,7 +285,7 @@ export default [
         width: 160,
       }
     },
-    defaultStyles: {// 元素默认样式
+    defaultStyles: {// element default style（元素默认样式）
       courseName: {
         fill: '#000',
         fontSize: 40,
@@ -317,7 +314,7 @@ export default [
         _fontSizeMult: 1.5,
       },
     },
-    defaultValues: {// 元素默认值
+    defaultValues: {// element default （元素默认值）
       teacherImage: '',
       courseName: '课程标题',
       subCourseName: '课程副标题',
